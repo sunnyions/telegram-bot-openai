@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot-node",
+  "version": "1.0.0",
+  "description": "this is telegram bot node app",
+  "main": "index.ts",
+  "author": "Hiroshi Mukai",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "netlify": "^13.1.11",
+    "nodemon": "^3.0.1",
+    "openai": "^4.20.1",
+    "telegraf": "^4.15.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  }
+}
