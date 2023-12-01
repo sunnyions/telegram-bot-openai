@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "this is telegram bot node app",
   "main": "index.ts",
+  "engines": {
+    "node": "18.12.0"
+  },
   "author": "Hiroshi Mukai",
   "license": "MIT",
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/index.ts",
+    "start": "node index.ts",
     "dev": "nodemon index.ts"
   },
   "dependencies": {
