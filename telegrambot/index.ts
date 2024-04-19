@@ -112,12 +112,12 @@ telebot.start(async (ctx) => {
     if (!checkValidGroup(ctx)) return; // check if bot is allowed to reply in this group
 
     return ctx.reply(
-      "Hi, this is *Momo*, ready to chat with you. \nReply to my message to start chatting...",
+      "Hi, this is *Momo*, ready to chat with you. \nHow can I assist you today?",
       {
-        parse_mode: "Markdown",
-        reply_to_message_id: ctx.message?.message_id,
-        allow_sending_without_reply: true,
-        reply_markup: { force_reply: true, selective: true },
+        // parse_mode: "Markdown",
+        // reply_to_message_id: ctx.message?.message_id,
+        // allow_sending_without_reply: true,
+        // reply_markup: { force_reply: true, selective: true },
       }
     );
   } catch (e) {
